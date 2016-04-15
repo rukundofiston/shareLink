@@ -1,0 +1,321 @@
+body{
+    margin: 0px;
+    background-color: #222222;
+    color: #FFFFFF;
+    font-family: Helvetica, Arial, Sans Serif;
+}
+#navigation>div{
+    height: 70px;
+}
+#navigation h1{
+    margin: 0px;
+    float: left;
+}
+
+#navigation div ul{
+    float: right;
+    margin: 0px;
+}
+
+#navigation li+li{
+    border-left: none;
+}
+#navigation li{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    height: 70px;
+    border-left: dashed;
+    border-right: dashed;
+    border-width: 1px;
+    border-color: #2A4141;
+    font-family: times;
+    text-transform: uppercase;
+    float: left;
+}
+#navigation{
+    background-color: #657D7D;
+    border-bottom: dashed;
+    border-bottom-color: #2A4141;
+    border-width: 1px;
+}
+div.base960{
+    margin-left: auto;
+    margin-right : auto;
+    width: 960px;
+    position: relative;
+}
+#navigation li>a{
+    color: white;
+    text-decoration: none;
+}
+#navigation li>a{
+    display: block;
+    padding-top: 40px;
+}
+#navigation li:hover{
+    background-color: white;
+}
+#navigation li:hover>a{
+    color: #657D7D;
+}
+#navigation+div{
+    height: 8px;
+    background-color: #DDDDDD;
+}
+#entete{
+    background-color: #939E9E;
+}
+#entete>div{
+    min-height: 300px;
+}
+#principes{
+    width: 460px;
+    height: 240px;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+#principes_haut{
+    height: 200px;
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-image: url(loupe.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#principes_bas{
+    height: 40px;
+    background-color: #657D7D;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+div.principe{
+    font-family: times;
+    color: #939E9E;
+    font-size: 24px;
+}
+div#principe1{
+    padding-top: 36px;
+    padding-left: 36px;
+    padding-right: 180px;
+    height: 164px;
+}
+
+#principes_bas>ul{
+    margin: 0px;
+    padding: 8px 16px;
+}
+#principes_bas ul li {
+    float:left;
+    list-style: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #4B5B5B;
+    padding:4px 18px;
+    border-radius: 12px;
+}
+#principes_bas ul li+li {
+    margin-left: 10px;
+}
+#principes_bas .selectionne{
+    background-color: #FF9354;
+}
+#entete_droite {
+    position:absolute;
+    width:460px;
+    height:240px;
+    top:30px;
+    right:10px;
+}
+#entete_droite form div{
+    float: left;
+    width: 50%;
+}
+
+form input.form_erreur {
+    background-color:#F5EDDE;
+    border:1px solid #FF9354;
+}
+
+#btn_inscrire{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:80px;
+    height: 48px;
+    width: 250px;
+    border-radius: 16px;
+    background-color: #EF8E4F;
+    text-align: center;
+    box-shadow: 0px 4px 0px #953505;
+}
+#btn_inscrire:hover {
+    margin-top:82px;
+    box-shadow: 0px 2px 0px #953505;
+}
+#meilleurs{
+    background-color: #2D2D2D;
+    margin: 0px;
+    padding: 0px;
+}
+/*#meilleurs .base960>div{
+    clear: both;
+}*/
+#meilleurs ul{
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+#meilleurs li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px 10px;
+    margin: 20px 0px;
+    width: 280px;
+    height: 100px;
+}
+#meilleurs div.date{
+    height: 65px;
+    width: 45px;
+    margin: 0px 12px 8px 0px;
+    padding: 3px 10px;
+    border: 4px solid;
+    border-color: black;
+    border-radius: 8px;
+    background-color: #DDDDDD;
+    float: left;
+}
+
+#meilleurs div.lien div.date span {
+    display:block;
+    text-align: center;
+}
+#meilleurs div.lien div.date span.jour {
+    color:#222222;
+    font-size: 34px;
+    line-height: 34px;
+}
+#meilleurs div.lien div.date span.mois {
+    color:#555555;
+    font-size: 18px;
+    line-height: 14px;
+}
+#meilleurs div.lien div.date span.annee {
+    color:#555555;
+    font-size: 13px;
+    line-height: 18px;
+}
+#meilleurs div.lien div.titre{
+    color: #FF9354;
+    font-size: 16px;
+    font-weight: bold;
+}
+#meilleurs div.lien div.ajoute_par{
+    font-size:12px;
+    color:#4B5B5B; 
+}
+#meilleurs div.lien div.description{
+    padding-top:10px;
+    font-size:14px
+}
+#meilleurs li:hover{
+    background-color:#222222;
+    border-radius:8px;
+}
+#editorial{
+    color:#333333;
+    background-color:#EBE3D5
+}
+#editorial .article{
+    width:620px;
+    margin-left:10px;
+    float: left;
+}
+#editorial h2{
+    font-size:24px;
+    font-family:Times;
+    margin-top:0px;
+    padding-top:12px;
+}
+#editorial .article .auteur span{
+    background-color:#779494;
+    border-radius:4px;
+    box-shadow:0px 4px #CCCCCC;
+    padding:3px 8px;
+    color:white;
+    font-weight:bold;
+    width: auto;
+}
+#editorial div.article span.renforce{
+    font-weight: bold;
+}
+#editorial div.article span.important{
+    color:#779494;
+}
+#editorial div.article p{
+    font-size:13px;
+    line-height:22px;
+    font-family:Arial;
+    padding-right:40px;
+}
+#editorial div.commentaires {
+    float:right;
+    width:300px;
+    margin-right:10px;
+}
+#editorial div.commentaires ul {
+    margin:0px;
+    padding:0px;
+}
+#editorial li.commentaire {
+    list-style: none;
+    background-color: #F5EDDE;
+    border-radius: 8px;
+    border:solid 4px #ADA088;
+    font-size:12px;
+    padding:8px;
+    margin-bottom:10px;
+    box-shadow: 0px 4px #CCCCCC;
+}
+#editorial li.commentaire p.auteur {
+    text-align:right;
+    color:#779494;
+}
+#editorial li.commentaire p.site {
+    font-weight: bold;
+    color:#EF8E4F;
+}
+#editorial li.commentaire p.site span.date {
+    float:right;
+    color:#779494;
+}
+#piedsEdito{
+    clear: both;
+}
+#pieds{
+    clear: both;
+    text-align: center;
+    height: 100px;
+    padding-top: 10px;
+}
+#pieds2{
+    clear: both;
+    text-align: center;
+    height: 100px;
+    padding-top: 10px;
+    background: #000000;
+    color:#FFFFFF;
+}
+label {
+    display: inline-block;
+    width: 10em;
+  }
+
+.error{
+    background: #FBE3E4;
+    color: #8a1f11;
+    border-color: #FBC2C4;
+}

@@ -1,0 +1,106 @@
+#application {
+    background-color: #939E9E;
+    padding-top:30px;    
+    padding-bottom:30px;
+}
+
+#application> div.base960 {
+    min-height: 300px;    
+}
+
+#listeLiens {    
+   margin-left: auto;
+   margin-right:auto;
+   width:100%;
+   color:#444444;
+}
+
+#listeLiens th {
+    text-align:left;
+    font-size:0.9em;
+    height:28px;
+}
+
+#listeLiens th a {
+    color:#444444;
+}
+
+#listeLiens th.titre {
+    width:350px;
+}
+
+#listeLiens th.utilisateur {
+    width:150px;
+}
+
+#listeLiens th.date {
+    width:100px;
+}
+
+#listeLiens th.visites {
+    width:80px;
+}
+
+#listeLiens th.action {
+    width: 50px;
+}
+
+#listeLiens tbody td {
+    font-size:0.8em;
+    height:26px;
+}
+
+#listeLiens tr.ligne0 {
+    background-color: #AEB6B6;
+}
+
+#listeLiens thead th {
+    border-bottom:1px solid #444444;
+}
+
+#listeLiens tbody tr:hover {
+    background-color: #DDDDDD;
+}
+
+#listeLiens a {
+    color:#444444;
+}
+
+#editerLiens {
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    color:#444444;        
+}
+
+#editerLiens input[type='text'],#editerLiens textArea {
+    width:400px;
+}
+
+#editerLiens textArea {
+    height:100px;
+}
+
+#editerLiens dd {
+    margin-bottom:8px;
+}
+
+#editerLiens #formulaire {
+    background-color: white;
+    padding-left:50px;
+    padding-top:18px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-bottom:12px;
+}
+
+#editerLiens #commandes {
+    background-color: #657D7D;
+    height: 40px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: right;
+    padding-right:20px;
+    padding-top:8px;    
+}
+
